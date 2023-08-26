@@ -1,0 +1,116 @@
+@font-face {
+  font-family: LmsPokedex;
+  src: url('../police/PokemonGb-RAeo.ttf');
+}
+
+@font-face {
+  font-family: Pokedex;
+  src: url('../police/PocketMonk-15ze.ttf');
+}
+
+body {
+  background-color: #CCD0CF;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pokedex{
+  background-color: #DB3C36;
+}
+
+.pokeshop{
+  background-color: #77B7F3;
+}
+
+.titres{
+  display: flex;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 1%;
+}
+
+.titre{
+  text-decoration: none;
+  color: inherit;
+  cursor:pointer;
+  border-radius: 30px;
+  border: solid;
+  padding: 3rem;
+  font-family: Pokedex;
+  font-size: 120px;
+  text-align: center;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.container {
+  margin-left: 25em;
+  border-radius: 30px;
+  background-color: #CCD0CF;
+  justify-content: space-evenly;
+  width: 35vw;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 3rem 0;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.pokemon{
+  cursor: pointer;
+  border: solid;
+  margin-bottom: 10%;
+  border-radius: 10px;
+}
+
+.carte{
+  padding: 1rem 0rem;
+  background-color: #C2A560;
+  font-family: LmsPokedex;
+  font-size: 15px;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  color: white;
+}
+
+.sprits{
+  width: 195px;
+}
+
+.detailPoke{
+  border-radius: 50px;
+  top: 60%;
+  right: 15%;
+  transform: translate(0, -50%);
+  position: fixed;
+  background-color: #7EBF61;
+  width: 20%;
+  height: 40%;
+  font-family: LmsPokedex;
+  flex-direction: column;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.carteInfo{
+  padding: 1rem 2rem;
+  border: solid;
+  width: fit-content;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+
+.movesInfo{
+  display: flex;
+}
